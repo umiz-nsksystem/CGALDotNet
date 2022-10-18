@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "versions-test",
+    "version": "1.0.0.0",
+    "dependencies": [
+        "cgal",
+        "eigen3"
+    ],
+    "builtin-baseline": "d52632d9a0c4a5b57de285b1e03722a067dd80eb",
+    "overrides": [
+        { "name": "cgal", "version": "5.2.2" },
+        { "name": "eigen3", "version": "3.4.0" }
+    ]
+}
